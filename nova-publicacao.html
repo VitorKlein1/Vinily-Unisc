@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinily :: Nova Resenha</title>
+    <link rel="stylesheet" href="./styles/nova-publicacao.css">
+</head>
+<body>
+    
+    <!-- Menu Lateral -->
+    <div id="menu-lateral">
+        <h1>Vinily</h1>
+
+        <a href="./inicio.html" target="_self" hreflang="pt-br">Início</a>
+        <a href="./minhas-resenhas.html" target="_self" hreflang="pt-br">Minhas publicações</a>
+        <a id="selecionado" href="./nova-resenha.html" target="_self" hreflang="pt-br">Nova publicação</a>
+        <a href="./login.html" target="_self" hreflang="pt-br">Sair</a>
+    </div>
+
+    <!-- Seção Nova Publicação -->
+    <div id="nova-publicação">
+        <h2>Nova Publicação</h2>
+        <h3>Preencha os campos corretamente para publicar uma nova análise.</h3>
+
+        <form action="#">
+            <p>Nome</p>
+            <textarea name="nome-album" id="nome-album" cols="30" rows="1" placeholder="Dark Side of the Moon"></textarea>
+            
+            <p>Análise</p>
+            <textarea name="análise" id="análise" cols="30" rows="32" placeholder="Achei o álbum interessante..."></textarea>
+            
+            <button type="submit">Publicar</button>
+        </form>
+    </div>
+
+</body>
+</html>
